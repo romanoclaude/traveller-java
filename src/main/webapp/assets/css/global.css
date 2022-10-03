@@ -1,0 +1,173 @@
+@charset "ISO-8859-1";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap");
+
+@font-face {
+  font-family: OpenDyslexic;
+  src: url("../fonts/OpenDyslexic2/OpenDyslexic-Regular.otf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  justify-content: space-between;
+}
+
+p {
+  margin-bottom: 0px !important;
+}
+
+h4 {
+  text-shadow: 1px 1px 10px;
+  font-weight: bold;
+}
+
+textarea {
+  border: 1px solid #76b3e6 !important;
+  min-height: 100px !important;
+}
+
+/* NAVBAR */
+
+.nav-link {
+  font-weight: 700 !important;
+  font-size: 20px !important;
+}
+
+nav ul li:hover {
+  background: #76b3e6;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+nav ul li {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* NAVBAR */
+
+/* FOOTER */
+
+.container_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-width: 1px 0px 1px 0px;
+  border-color: #000;
+  border-style: solid;
+}
+
+.container_footer > .size100 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.size100 {
+  width: 100%;
+}
+
+.links > a {
+  text-decoration: none;
+  color: black;
+}
+
+.font-size-footer {
+  font-size: 10px;
+}
+
+/* FOOTER */
+
+/* BACKGROUNG HOME */
+
+.background {
+  height: 500px;
+  width: 100vw;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* BACKGROUNG HOME */
+
+/* NAVBAR */
+
+nav ul li:hover {
+  background: #76b3e6;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+nav ul li {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* NAVBAR */
+
+/* BUSCAR VIAGEM AREA */
+.box-buscar-datas {
+  margin-top: 265px !important;
+  border-radius: 10px;
+  background-color: #a8ccf3;
+}
+
+.btn-buscar {
+  width: 100% !important;
+}
+
+.btn-rounded {
+  border-radius: 20px;
+  background-color: #0d6efd;
+  padding: 8px;
+  border: none !important;
+  color: #fff;
+  box-shadow: 3px 3px 5px 0px #000;
+}
+
+/* BUSCAR VIAGEM AREA */
+
+/* CARD EVENTOS */
+
+.card-eventos > img {
+  border-radius: 10px 10px 0px 0px;
+}
+.card-eventos > button {
+  padding: 5px 5px 5px 50px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: start;
+  border-radius: 0px 0px 10px 10px;
+  border: none !important;
+}
+
+.button-azul {
+  background-color: #045cfa;
+}
+
+.button-laranja {
+  background-color: #d17e4f;
+}
+
+.button-verde {
+  background-color: #01bdaa;
+}
+
+.button-cinza {
+  background-color: #afbdd3;
+}
+
+/* CARD EVENTOS */
